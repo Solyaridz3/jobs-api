@@ -9,6 +9,8 @@
 1. Add MONGO_URI to your .env with correct value
 
 
+#### Then run that in terminal
+
 ```bash
 npm install && npm start
 ```
