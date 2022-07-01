@@ -4,13 +4,16 @@
 2. Setup JWT_LIFETIME to your .env, recommended value is 30d (for how long the JWT token will be valid)
 3. Setup JWT_SECRET to your .env, recommended value is 256-bit encryption key
 
+#### Database Connection
+
+1. Add MONGO_URI to your .env with correct value
+
+
 ```bash
 npm install && npm start
 ```
 
-#### Database Connection
 
-1. Add MONGO_URI to your .env with correct value
 
 #### Routers
 
