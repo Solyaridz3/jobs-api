@@ -1,14 +1,16 @@
 #### Setup
 
+1. Setup .env in the root
+2. Setup JWT_LIFETIME to your .env, recommended value is 30d (for how long the JWT token will be valid)
+3. Setup JWT_SECRET to your .env, recommended value is 256-bit ecnription key.
+
 ```bash
 npm install && npm start
 ```
 
 #### Database Connection
 
-
-1. Setup .env in the root
-2. Add MONGO_URI with correct value
+1. Add MONGO_URI to your .env with correct value
 
 
 #### Routers
@@ -18,7 +20,7 @@ npm install && npm start
 
 #### User Model
 
-Email Validation Regex
+Email validation done using that regex
 
 ```regex
 /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
