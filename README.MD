@@ -1,7 +1,7 @@
 #### Setup
 
 1. Setup .env in the root
-2. Setup JWT_SECRET (for how long the JWT token will be valid)
+2. Setup JWT_LIFETIME to your .env, recommended value is 30d (for how long the JWT token will be valid)
 
 ```bash
 npm install && npm start
