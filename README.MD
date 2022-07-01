@@ -9,7 +9,7 @@ npm install && npm start
 
 1. Setup .env in the root
 2. Add MONGO_URI with correct value
- 
+
 
 #### Routers
 
