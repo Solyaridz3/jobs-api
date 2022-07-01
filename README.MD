@@ -10,7 +10,11 @@ npm install && npm start
 
 #### Database Connection
 
+<<<<<<< HEAD
 1. Add MONGO_URI to your .env with correct value
+=======
+1. Add MONGO_URI to yout .env with correct value
+>>>>>>> d50bf3fe3ee05fb1be84544078e20915fb222e21
 
 
 #### Routers
