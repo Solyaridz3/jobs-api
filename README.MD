@@ -62,6 +62,6 @@ Email validation done using that regex
 - express-rate-limit
 
 #### Swagger UI
--Used to create API documentation
+- Used to create API documentation
 
 
