@@ -1,14 +1,15 @@
 #### Setup
 
+1. Setup .env in the root
+2. Setup JWT_SECRET (for how long the JWT token will be valid)
+
 ```bash
 npm install && npm start
 ```
 
 #### Database Connection
 
-
-1. Setup .env in the root
-2. Add MONGO_URI with correct value
+1. Add MONGO_URI to yout .env with correct value
 
 
 #### Routers
